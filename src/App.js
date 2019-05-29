@@ -14,19 +14,19 @@ import Banner from './components/Banner/index';
 
 function App() {
   return (
-          <Row>
-            <Col>
-              <Banner/>
-            </Col>
-            <Col>
-              <Switch>
-                <Route path="/" exact component={About} />
-                <Route path="/skills/" component={Skills} />
-                <Route path="/projects/" component={Projects} />
-                <Route component={NotFound} />
-              </Switch>
-            </Col>
-          </Row> 
+    <Row>
+      <Col className="NoPadding" md={3}>
+        <Banner/>
+      </Col>
+      <Col className="NoPadding RightHandSideComponent">
+        <Switch>
+          <Route path="/" exact component={About} />
+          <Route path="/skills/" component={Skills} />
+          <Route path="/projects/" component={Projects} />
+          <Route component={NotFound} />
+        </Switch>
+      </Col>
+    </Row> 
   );
 }
 

@@ -1,3 +1,55 @@
 .Background{
-        background-color: Gray;
+        background-color: #171A1E;
 }
+
+.UList{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+}
+
+.UList li{
+        float: left;
+}
+
+.UList li a{
+        color: #C5C5BF;
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+
+.UList li a:hover{
+        background-color: #6D616F;
+}
+
+.Height{
+        cursor: default;
+        height: 100vh;
+        overflow-x: visible;
+        user-select: none;
+        width: 400px;
+        max-width: 100vw;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        z-index: 100000;
+        background: rgb(23, 26, 30);
+        transform: translateX(0px);
+        transition: transform 0.3s ease-out 0s;
+}
+
+.Box{
+        padding: 8em 2em;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;    
+        justify-content: center;
+        flex-direction: column;
+        transition: height 0.3s ease-out 0s;
+}
+
+

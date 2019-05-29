@@ -1,0 +1,24 @@
+.IconBox{
+        display: flex;
+        align-items: center;
+        overflow-y: hidden;
+        z-index: 30;
+        position: absolute;
+        bottom: 3.5em;
+        justify-content: center;
+}
+
+.SocialIcon{
+        color: white;
+        width: 16px;
+        height: 16px;
+}
+
+.CopyRight{
+        position: absolute;
+        bottom: 1em;
+        color: rgba(255, 255, 255, 0.5);
+        left: 0px;
+        text-align: center;
+        width: 100%;
+}
