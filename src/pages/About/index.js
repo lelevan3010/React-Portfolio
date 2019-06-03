@@ -4,13 +4,12 @@ import './styles.css';
 import Row from 'react-bootstrap/Row';  
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
-import './styles.css';
 
 import avatar from '../../Images/Avatar.png';
 
 function About() {
   return (
-    <Container>
+    <Container className="Font">
       <Row className="VerticalAlign">
         <Col>
           <Row>
