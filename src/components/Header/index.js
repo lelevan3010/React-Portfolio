@@ -1,15 +1,13 @@
 import React from 'react';
 
-import './styles.css'
+import './styles.scss'
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';  
 
-function Header() {
+function Header(props) {
         return (
                 <Row className="Header" noGutters={true}>
-                        <section className="GradientBackgroundTitle">
-                                <h1>My Projects</h1>
-                        </section>
+                        {props.children}
                 </Row>
         );
 }

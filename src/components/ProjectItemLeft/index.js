@@ -38,7 +38,7 @@ const showContent = (projects) => {
     if(projects.length > 0){
         result = projects.map((project, index) => {
             return (
-                <Row key={index} className="Cover NoPadding NoMargin" 
+                <Row key={index} className="Cover NoMargin" noGutters={true}
                 style={{'backgroundImage': `url(${project.imgURL})`}}
                 >
                     <section className="GradientBackgroundTitle">

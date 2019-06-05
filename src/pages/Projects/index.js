@@ -10,8 +10,27 @@ import Col from 'react-bootstrap/Col';
 
 function Projects() {
         return (
-                <div>
-                        <Header/>
+                <div className="TextColor">
+                        <Header>
+                                <div className="bird-container bird-container--one">
+                                        <div className="bird bird--one"></div>
+                                </div>
+
+                                <div className="bird-container bird-container--two">
+                                        <div className="bird bird--two"></div>
+                                </div>
+
+                                <div className="bird-container bird-container--three">
+                                        <div className="bird bird--three"></div>
+                                </div>
+
+                                <div className="bird-container bird-container--four">
+                                        <div className="bird bird--four"></div>
+                                </div>
+                                <section className="GradientBackgroundTitle">
+                                        <h1>My Projects</h1>
+                                </section>
+                        </Header>
                         <Row noGutters={true}>
                                 <Col className="NoPadding">
                                         <ProjectItemLeft/>

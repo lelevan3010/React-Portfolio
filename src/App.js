@@ -18,7 +18,7 @@ function App() {
       <Col md={3}>
         <Banner/>
       </Col>
-      <Col className="RightHandSideComponent NoPadding" md={9}>
+      <Col className="RightHandSideComponent" md={9}>
           <Switch>
             <Route path="/" exact component={About} />
             <Route path="/skills/" component={Skills} />
