@@ -6,8 +6,9 @@
         border: 1px solid rgb(255, 255, 255);
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-.Font{
-        color: rgb(94, 108, 116);
+
+.hr{
+        border-color: rgb(221, 221, 221);
 }
 
 .Center{

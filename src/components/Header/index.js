@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 
 function Header(props) {
         return (
-                <Row className="Header" noGutters={true}>
+                <Row className="Header" noGutters={true} style={{"backgroundImage": `url(${props.imgURL})`}}>
                         {props.children}
                 </Row>
         );

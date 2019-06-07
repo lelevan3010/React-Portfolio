@@ -1,6 +1,9 @@
 import React from 'react';
 
 import Col from 'react-bootstrap/Col';
+import ProgressBar from 'react-bootstrap/ProgressBar';
+
+import './styles.css';
 
 function SkillIcon(props) {
 
@@ -20,6 +23,11 @@ function SkillIcon(props) {
             <div> 
                 <i className={`${props.name} colored`} style={{"fontSize": "10rem"}}></i>
             </div>
+            <ProgressBar 
+                striped animated variant="success" 
+                now={props.percentage} 
+                label={`${props.percentage}%`} 
+                className="ProgressBar"/>
             <h3>{findIconName(props.name)}</h3>
         </Col>
     )

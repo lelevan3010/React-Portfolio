@@ -1,17 +1,17 @@
 import React from 'react';
-import ProjectItemLeft from '../../components/ProjectItemLeft/index';
-import ProjectItemRight from '../../components/ProjectItemRight/index';
+import ProjectItem from '../../components/ProjectItem/index';
 import Header from '../../components/Header/index';
 
 import './styles.css';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';  
 import Col from 'react-bootstrap/Col';
+
+import SkillsHeader from '../../Images/SkillsImages/minimal-lake-sunset-img.jpg'
 
 function Projects() {
         return (
                 <div className="TextColor">
-                        <Header>
+                        <Header imgURL={SkillsHeader}>
                                 <div className="bird-container bird-container--one">
                                         <div className="bird bird--one"></div>
                                 </div>
@@ -32,12 +32,7 @@ function Projects() {
                                 </section>
                         </Header>
                         <Row noGutters={true}>
-                                <Col className="NoPadding">
-                                        <ProjectItemLeft/>
-                                </Col>
-                                <Col className="NoPadding">
-                                        <ProjectItemRight/>
-                                </Col>
+                                <ProjectItem/>
                         </Row>
                 </div>
         );
