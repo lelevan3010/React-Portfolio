@@ -8,7 +8,6 @@ const identifier=(component)=>{
         let result=null;
         projects.forEach((project, _index)=>{
                 project.forEach(element => {
-                        console.log(element)
                         if(element.title === component){
                                 result = element;
                         }

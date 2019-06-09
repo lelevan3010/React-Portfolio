@@ -11,28 +11,26 @@ function About() {
   return (
     <Container>
       <Row className="VerticalAlign" noGutters={true}>
-        <Col>
+        <Col xs={12} sm={12} lg={4}>
           <img className="Avatar Center" src={avatar} alt="avatar"/>
         </Col>
-        <Col>
-          <Row noGutters={true}>
+        <Col xs={12} sm={12} lg={8}>
+          <Container>
             <h2>CAREER SUMMARY<hr className="hr"/></h2>
             <p>
               Enthusiastic, self-taught IT student looking for a Web Development job. A social, energetic person and capable of working in a team to achieve the objectives. Possessing global mindset, I have huge passion in exploring new technologies that are being used behind tech companies in 2019 and develop my career in UI/UX design.
             </p>
-          </Row>
-          <Row noGutters={true}>
-            <h2 style={{"marginRight": "10rem"}}>LANGUAGES <hr className="hr"/></h2> 
+
+            <h2 style={{"marginRight": "15rem"}}>LANGUAGES <hr className="hr"/></h2> 
             <p>
-              Proficient in English and Vietnamese | Beginner in Finnish 
+              Proficient in English and Vietnamese | Beginner in Finnish  
             </p>
-          </Row>
-          <Row noGutters={true}>
-            <h2 style={{"marginRight": "10rem"}}>EDUCATION<hr className="hr"/></h2>
+
+            <h2 style={{"marginRight": "15rem"}}>EDUCATION<hr className="hr"/></h2>
             <p>
               Bachelor of Applied Science Metropolia UAS - IT(2017 – Present) 
             </p>
-          </Row>
+          </Container>
         </Col>
       </Row>
     </Container>

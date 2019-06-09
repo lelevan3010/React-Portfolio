@@ -18,10 +18,10 @@ const showIcons = (icons) => {
     if(icons.length > 0){
         result = icons.map((icon, index) => {
             return (
-                <Row key={index} noGutters={true}  className="Icon">
+                <Row className="Icon">
                     <SkillIcon name={icon[0].name} percentage={icon[0].percentage}/>
                     <SkillIcon name={icon[1].name} percentage={icon[1].percentage}/>
-                    <SkillIcon name={icon[2].name} percentage={icon[2].percentage}/>  
+                    <SkillIcon name={icon[2].name} percentage={icon[2].percentage}/>
                 </Row>
             );
         })

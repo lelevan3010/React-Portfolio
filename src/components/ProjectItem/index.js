@@ -96,7 +96,8 @@ const showContent = (projects) => {
             return (
                 <Row key={index} noGutters={true} >
                     <Col className="Cover NoPadding"
-                    style={{'backgroundImage': `url(${project[0].imgURL})`}}
+                        style={{'backgroundImage': `url(${project[0].imgURL})`}}
+                        xs={12} sm={12} lg={6}
                     >
                         <Link to={`${project[0].route}`} className="TextDecorate">
                             <section className="GradientBackgroundTitle">
@@ -104,7 +105,8 @@ const showContent = (projects) => {
                                     {project[0].title}
                                 </h2>
                                 <p>
-                                    📅 {project[0].date}
+                                    <span role="img" aria-label="Calendar">📅</span> 
+                                    {project[0].date}
                                 </p>
                                 <p>
                                     {project[0].description}
@@ -114,6 +116,7 @@ const showContent = (projects) => {
                     </Col>
                     <Col className="Cover NoPadding"
                     style={{'backgroundImage': `url(${project[1].imgURL})`}}
+                    xs={12} sm={12} lg={6}
                     >
                         <Link to={`${project[1].route}`} className="TextDecorate">
                             <section className="GradientBackgroundTitle">
@@ -121,7 +124,8 @@ const showContent = (projects) => {
                                     {project[1].title}
                                 </h2>
                                 <p>
-                                    📅 {project[1].date}
+                                    <span role="img" aria-label="Calendar">📅</span> 
+                                    {project[1].date}
                                 </p>
                                 <p>
                                     {project[1].description}

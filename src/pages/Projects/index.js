@@ -4,7 +4,6 @@ import Header from '../../components/Header/index';
 
 import './styles.css';
 import Row from 'react-bootstrap/Row';  
-import Col from 'react-bootstrap/Col';
 
 import SkillsHeader from '../../Images/SkillsImages/minimal-lake-sunset-img.jpg'
 

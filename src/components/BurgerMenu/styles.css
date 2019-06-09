@@ -1,0 +1,24 @@
+.TopBar{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .BurgerMenu{
+        width: 40px;
+        height: 33px;
+        margin:9px;
+    }
+    
+    .TopBar{
+        background: rgb(23, 26, 30);
+        display: flex;
+        height: 52px;
+        justify-content: space-between;
+        left: 0px;
+        position: fixed;
+        top: 0px;
+        width: 150vw;
+        z-index: 100;
+        visibility: visible;
+    }
+}

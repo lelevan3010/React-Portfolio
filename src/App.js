@@ -19,14 +19,16 @@ import {
 from './pages/Blogs/index';
 
 import Banner from './components/Banner/index';
+import BurgerMenu from './components/BurgerMenu/index';
 
 function App() {
   return (
     <Row noGutters={true}>
-      <Col className="LeftHandSideComponent" md={3}>
+      <BurgerMenu/>
+      <Col xs={0} sm={0} lg={3}>
         <Banner/>
       </Col>
-      <Col className="RightHandSideComponent" xs={12} sm={12} md={9}>
+      <Col className="RightHandSideComponent" xs={12} sm={12} xl={9}>
           <Switch>
             <Route path="/" exact component={About} />
             <Route path="/skills/" component={Skills} />

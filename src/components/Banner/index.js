@@ -9,10 +9,10 @@ import Footer from '../Footer/index'
 
 function Banner() {
         return (        
-                <Col className="Background Height NoPadding" md={3}>
+                <Col className="Height NoPadding" md={3}>
                         <div className="Box">
                                 <Link to="/" style={{"paddingTop": "3em", "color": "rgb(255, 255, 255)", "textDecoration": "none"}}>
-                                        <h1 style={{"textTransform": "uppercase", "fontWeight": "200"}}>Van <span style={{"fontWeight": "500"}}>Nguyen</span></h1>
+                                        <h1 style={{"textTransform": "uppercase", "fontWeight": "100"}}>Van <span style={{"fontWeight": "500"}}>Nguyen</span></h1>
                                 </Link>
                                 <nav>
                                         <ul className="UList">

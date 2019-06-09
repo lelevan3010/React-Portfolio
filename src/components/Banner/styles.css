@@ -1,7 +1,3 @@
-.Background{
-        background-color: #171A1E;
-}
-
 .UList{
         list-style-type: none;
         margin: 0;
@@ -30,8 +26,8 @@
         height: 100vh;
         overflow-x: visible;
         user-select: none;
-        /* width: 400px;
-        max-width: 100vw; */
+        width: 400px;
+        max-width: 100vw;
         position: fixed;
         left: 0px;
         top: 0px;
@@ -39,6 +35,24 @@
         background: rgb(23, 26, 30);
         transform: translateX(0px);
         transition: transform 0.3s ease-out 0s
+}
+
+@media screen and (max-width: 768px){
+        .Height{
+                cursor: default;
+                height: 100vh;
+                overflow-x: visible;
+                user-select: none;
+                width: 400px;
+                max-width: 100vw;
+                position: fixed;
+                left: 0px;
+                top: 0px;
+                z-index: 100000;
+                background: rgb(23, 26, 30);
+                transform: translateX(-400px);
+                transition: transform 0.3s ease-out 0s;
+        }
 }
 
 
