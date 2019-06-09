@@ -4,10 +4,10 @@ import BurgerMenuPNG from '../../Images/SkillsImages/BurgerMenu.png';
 
 import './styles.css';
 
-function BurgerMenu() {
+function BurgerMenu(props) {
         return (
                 <div className="TopBar">
-                    <img className="BurgerMenu" src={BurgerMenuPNG} alt="burer-menu"/>
+                    <img onClick={props.onOpenMenu} className="BurgerMenu" src={BurgerMenuPNG} alt="burer-menu"/>
                 </div>
         );
 }

@@ -19,12 +19,10 @@ import {
 from './pages/Blogs/index';
 
 import Banner from './components/Banner/index';
-import BurgerMenu from './components/BurgerMenu/index';
 
 function App() {
   return (
     <Row noGutters={true}>
-      <BurgerMenu/>
       <Col xs={0} sm={0} lg={3}>
         <Banner/>
       </Col>

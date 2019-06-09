@@ -7,11 +7,18 @@
         margin: 16px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 576px){
         .Avatar{
-                margin: 340px 16px 16px 16px;
+                margin: -240px 16px 16px 16px;
         }
 }
+
+@media screen and (max-width: 992px){
+        .Avatar{
+                margin: -190px 16px 16px 16px;
+        }
+}
+
 @media screen and (max-width: 1492px){
         .Avatar{
                 width: 256px;
