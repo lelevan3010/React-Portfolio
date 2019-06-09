@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 import './styles.css';
 import '../../App.css';
-import Col from 'react-bootstrap/Col';
 
 import Footer from '../Footer/index';
 import BurgerMenu from '../BurgerMenu/index';
@@ -24,11 +23,11 @@ function Banner() {
         return (        
                 <div>
                         <BurgerMenu onOpenMenu={onOpenMenu}/>
-                        <Col className="Height NoPadding" md={3} style={collapseStyles}>
+                        <div className="Height NoPadding" style={collapseStyles}>
                                 <div className="X" onClick={onCloseMenu}>X</div>
                                 <div className="Box">
                                         <Link to="/" style={{"paddingTop": "3em", "color": "rgb(255, 255, 255)", "textDecoration": "none"}}>
-                                                <h1 style={{"textTransform": "uppercase", "fontWeight": "100"}}>Van <span style={{"fontWeight": "500"}}>Nguyen</span></h1>
+                                                <h1 style={{"textTransform": "uppercase", "fontWeight": "normal"}}>Van <span style={{"fontWeight": "bold"}}>Nguyen</span></h1>
                                         </Link>
                                         <nav>
                                                 <ul className="UList">
@@ -45,7 +44,7 @@ function Banner() {
                                         </nav>
                                         <Footer/>
                                 </div>
-                        </Col>
+                        </div>
                 </div>
         );
 }

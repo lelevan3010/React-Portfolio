@@ -23,10 +23,10 @@ import Banner from './components/Banner/index';
 function App() {
   return (
     <Row noGutters={true}>
-      <Col xs={0} sm={0} lg={3}>
+      <Col xs={0} sm={0} md={5} xl={3}>
         <Banner/>
       </Col>
-      <Col className="RightHandSideComponent" xs={12} sm={12} xl={9}>
+      <Col className="RightHandSideComponent" xs={12} sm={12} md={7} xl={9}>
           <Switch>
             <Route path="/" exact component={About} />
             <Route path="/skills/" component={Skills} />

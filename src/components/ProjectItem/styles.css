@@ -16,6 +16,7 @@
 }
 
 .TextDecorate{
+        width: 100%;
         color: rgb(255, 255, 255);
         text-decoration: none;
 }

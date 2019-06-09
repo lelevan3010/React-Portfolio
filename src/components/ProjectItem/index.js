@@ -16,8 +16,8 @@ const images = importAll(require.context('../../Images/ProjectsImages/', false, 
 export const projects = [
     [{
         title:'Devide World Tour',
-        date: '10/8/2018',
-        description: 'text of the printing and typesetting industry Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
+        date: '23/10/2018',
+        description: "A React web page for learning purpose, showing the information of Ed Sheeran's concert in Finland.",
         deploy: 'http://ed-sheeran.surge.sh/',
         technology:['React', 'MaterialUI'],
         responsive: 'Desktop',
@@ -28,8 +28,8 @@ export const projects = [
     },
     {
         title:'React Products Manager',
-        date: '10/8/2018',
-        description: 'text of the printing and typesetting industry Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
+        date: '8/4/2019',
+        description: 'A web app written in React/Redux, help you manage your products and their amount.',
         deploy: 'None',
         technology:['React', 'Redux', 'Bootstrap'],
         responsive: 'All Devices',
@@ -40,8 +40,8 @@ export const projects = [
     }],
     [{
         title:'God Of War',
-        date: '12/3/2018',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
+        date: '15/3/2018',
+        description: 'My very first responsive static web page built up with webpack, babel, gulp, sass, etc.',
         deploy: 'https://lelevan3010.github.io/God-of-War/',
         technology:['SASS', 'Gulp', 'ES6', 'Webpack'],
         responsive: 'All Devices',
@@ -52,8 +52,8 @@ export const projects = [
     },
         {
         title:'To-Do App',
-        date: '12/3/2018',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
+        date: '21/12/2018',
+        description: "A very basic to-do app that you need for your everyday's goal.",
         deploy: 'https://van-nguyen-to-do-list.herokuapp.com/',
         technology:['HTML', 'CSS', 'EJS', 'MongoDB'],
         responsive: 'Desktop',
@@ -65,8 +65,8 @@ export const projects = [
     [{
         title:'React Native Calculator',
         date: '10/8/2018',
-        description: 'text of the printing and typesetting industry Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
-        deploy: null,
+        description: "My 'Hello World' React Native application. It's a functional clone Android calculator.",
+        deploy: 'None',
         technology:['React Native'],
         responsive: 'Mobile',
         github: 'https://github.com/lelevan3010/React-Native-Hello-World',
@@ -76,8 +76,8 @@ export const projects = [
     },
     {
         title:'React Contact Manager',
-        date: '10/8/2018',
-        description: 'text of the printing and typesetting industry Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
+        date: '23/10/2018',
+        description: 'A React/Redux app that makes your contact management easier.',
         deploy: 'https://lelevan3010.github.io/React-Contact-Manager/',
         technology:['React', 'Redux', 'Bootstrap'],
         responsive: 'All Devices',
@@ -105,7 +105,7 @@ const showContent = (projects) => {
                                     {project[0].title}
                                 </h2>
                                 <p>
-                                    <span role="img" aria-label="Calendar">📅</span> 
+                                    <span role="img" aria-label="Calendar">📅 </span> 
                                     {project[0].date}
                                 </p>
                                 <p>
@@ -124,7 +124,7 @@ const showContent = (projects) => {
                                     {project[1].title}
                                 </h2>
                                 <p>
-                                    <span role="img" aria-label="Calendar">📅</span> 
+                                    <span role="img" aria-label="Calendar">📅 </span> 
                                     {project[1].date}
                                 </p>
                                 <p>

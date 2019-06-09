@@ -11,10 +11,10 @@ function About() {
   return (
     <Container>
       <Row className="VerticalAlign" noGutters={true}>
-        <Col xs={12} sm={12} lg={4}>
+        <Col xs={12} sm={12} xl={4}>
           <img className="Avatar Center" src={avatar} alt="avatar"/>
         </Col>
-        <Col xs={12} sm={12} lg={8}>
+        <Col xs={12} sm={12} xl={8}>
           <Container>
             <h2>CAREER SUMMARY<hr className="hr"/></h2>
             <p>
