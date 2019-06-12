@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.7e5cfa59.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.297f52cd.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.297f52cd.chunk.js.map",
+    "runtime~main.js": "/React-Portfolio/static/js/runtime~main.982e8b01.js",
+    "runtime~main.js.map": "/React-Portfolio/static/js/runtime~main.982e8b01.js.map",
+    "static/js/2.619eb148.chunk.js": "/React-Portfolio/static/js/2.619eb148.chunk.js",
+    "static/js/2.619eb148.chunk.js.map": "/React-Portfolio/static/js/2.619eb148.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "precache-manifest.04860302a4a3a8e2ebbeb0da61368252.js": "/React-Portfolio/precache-manifest.04860302a4a3a8e2ebbeb0da61368252.js",
+    "service-worker.js": "/React-Portfolio/service-worker.js",
+    "static/css/main.7e5cfa59.chunk.css.map": "/React-Portfolio/static/css/main.7e5cfa59.chunk.css.map",
+    "static/media/Avatar.png": "/React-Portfolio/static/media/Avatar.81eda9fa.png",
+    "static/media/Ed-sheeran.png": "/React-Portfolio/static/media/Ed-sheeran.da46015d.png",
+    "static/media/GodofWar-header.jpg": "/React-Portfolio/static/media/GodofWar-header.baccb796.jpg",
+    "static/media/calculator.png": "/React-Portfolio/static/media/calculator.3acdce92.png",
+    "static/media/contact-manager.png": "/React-Portfolio/static/media/contact-manager.121dbf1c.png",
+    "static/media/minimal-lake-sunset-img.jpg": "/React-Portfolio/static/media/minimal-lake-sunset-img.8681be10.jpg",
+    "static/media/products-manager.png": "/React-Portfolio/static/media/products-manager.a7b3ca1a.png",
+    "static/media/to-do.png": "/React-Portfolio/static/media/to-do.8e1fdf3d.png"
+  }
+}
