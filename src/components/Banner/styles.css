@@ -1,3 +1,9 @@
+@media screen and (max-width: 350px){
+        .Box a h1{
+                font-size: 2em;
+        }
+}
+
 .UList{
         list-style-type: none;
         margin: 0;
@@ -15,6 +21,12 @@
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
+}
+
+@media screen and (max-width: 900px){
+        .UList li a{
+                padding: 14px 5px;
+        }
 }
 
 .UList li a:hover{
@@ -69,6 +81,7 @@
         flex-direction: column;
         transition: height 0.3s ease-out 0s;
 }
+
 
 .X{
         display: none;

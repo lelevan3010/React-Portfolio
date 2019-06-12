@@ -1,11 +1,9 @@
 .IconBox{
         display: flex;
-        align-items: center;
-        overflow-y: hidden;
         z-index: 30;
         position: absolute;
         bottom: 2.5em;
-        justify-content: center;
+        left: 45%;
 }
 
 .SocialIcon{
